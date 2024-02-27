@@ -1,10 +1,10 @@
-body {
+.body {
     background: #f6f6fa;
     padding: 40px 40px 40px 40px;
     font-family: "Montserrat", sans-serif;
 }
 
-ul, ol {
+.ul, .ol {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -20,9 +20,9 @@ ul, ol {
 /* main content */
 
 .main-content {
-    padding-left: 88px;
+    padding-left: 80px;
     padding-top: 80px;
-    padding-right: 40px;
+    padding-right: 80px;
     padding-bottom: 80px;
     box-sizing: border-box;    
 }
@@ -297,3 +297,14 @@ ul, ol {
 .education-container {
     margin-bottom: 12px;
 }
+
+@media screen and (max-width: 900px) {
+    .body {
+        padding: 20px;
+    }
+
+    .main-content {
+        padding: 40px;
+         }
+} 
+    
